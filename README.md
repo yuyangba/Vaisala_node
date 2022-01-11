@@ -14,6 +14,7 @@ This will print the query Url in the terminal. The infomation will be parsed and
 ## Parameter explanation
 
 `longitude`		mandatory	represent the longitude of a place you want to look up.
+
 `latitude`		mandatory	represent the latitude of a place you want to look up.
 `key`			mandatory	represent your API key.
 `altitude`		optional	represent the altitude of a place you want to look up.
