@@ -13,17 +13,25 @@ This will print the query Url in the terminal. The infomation will be parsed and
 
 ## Parameter explanation
 
-`longitude`		mandatory	represent the longitude of a place you want to look up.
+`longitude`         mandatory parameter. Represent the longitude of a place you want to look up.
 
-`latitude`		mandatory	represent the latitude of a place you want to look up.
-`key`			mandatory	represent your API key.
-`altitude`		optional	represent the altitude of a place you want to look up.
-`temp_unit`		optional	choose your temprature unit. Default to Celsius.	Options: C, F
-`wind_unit`		optional	choose your wind speed unit. Default to m/s.		Options: MS, KTS, KMS, MPH
-`time_zone`		optional	POSIX formatted time zone string for response timestamps. Default by your current location.	Options: UTC, Europe/Helsinki
-`ftimes_length`		optional	Component of `ftime` parameter. Represent the maximum time length you want to look up.
-`ftimes_timestep`	optional	Component of `ftime` parameter. Represent the each segement length.
-`ftimes_firststep`	optional	Component of `ftime` parameter. Represent the start time of your forecast.
+`latitude`		    mandatory parameter. Represent the latitude of a place you want to look up.
+
+`key`		    	mandatory parameter. Represent your API key.
+
+`altitude`		    optional parameter. Represent the altitude of a place you want to look up.
+
+`temp_unit`	    	optional parametee. Choose your temprature unit. Default to Celsius.	Options: C, F
+
+`wind_unit`	    	optional parameter. Choose your wind speed unit. Default to m/s.		Options: MS, KTS, KMS, MPH
+
+`time_zone`	    	optional parameter. POSIX formatted time zone string for response timestamps. Default by your current location.	Options: UTC, Europe/Helsinki
+
+`ftimes_length`		optional parameter. Component of `ftime` parameter. Represent the maximum time length you want to look up.
+
+`ftimes_timestep`	optional parameter. Component of `ftime` parameter. Represent the each segement length.
+
+`ftimes_firststep`	optional parameter. Component of `ftime` parameter. Represent the start time of your forecast.
 
 For further more information of the `ftimes` explanation, please visit https://www.vaisala.com/en/weather-api-detail.
 
