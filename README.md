@@ -24,7 +24,7 @@ This will print the query Url in the terminal. The infomation will be parsed and
 `ftimes_timestep`	optional	Component of `ftime` parameter. Represent the each segement length.
 `ftimes_firststep`	optional	Component of `ftime` parameter. Represent the start time of your forecast.
 
-For further more information of the `ftimes` explanation, please visit.
+For further more information of the `ftimes` explanation, please visit https://www.vaisala.com/en/weather-api-detail.
 
 
 ## Ros API
@@ -41,7 +41,7 @@ Location informatiion will be published to topic `location_info`
 ### Vaisala_msg_listener
 Subscribe to the vaisala topics. Mainly used for test
 
-##Meta
+## Meta
 Yuyang Bai
 
 
